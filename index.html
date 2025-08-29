@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing Page da nossa equipe - Portfólio e projetos">
+  <title>Equipe Fase 1</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <!-- ========= HEADER ========= -->
+  <header>
+    <div class="menu-toggle">☰</div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#sobre">Equipe</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="hero" class="hero">
+    <h1>Equipe Orion</h1>
+    <p>Entrega Fase 1</p>
+    <a href="#sobre"><button>Conheça a equipe</button></a>
+  </section>
+
+  
+  <section id="sobre" class="sobre">
+    <h2>Sobre a equipe</h2>
+    <p>Somos um grupo de Estudantes da Unifacisa, do curso de Sistemas de Informação.</p>
+    <div class="integrantes">
+      <div class="integrante">
+        <img src="Fotos/Igor Araujo.jpg" alt="Foto Igor Araujo" width="100">
+        <h3>Igor Araújo</h3>
+        <p>Desenvolvedor Frontend</p>
+      </div>
+      <div class="integrante">
+        <img src="Fotos/Israel Batista.jpg" alt="Foto Israel Batista" width="100">
+        <h3>Israel Batista</h3>
+        <p>Desenvolvedor Backend</p>
+      </div>
+      <div class="integrante">
+        <img src="Fotos/Nathan Esley.jpg" alt="Foto Nathan Esley" width="100">
+        <h3>Nathan Esley</h3>
+        <p>Desenvolvedor Frontend</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="skills" class="skills">
+     <h2>Skills / Stacks</h2>
+  <div class="skills-list">
+    <div class="skill">
+      <img src="Fotos/html.png" alt="HTML">
+      <p>HTML</p>
+    </div>
+    <div class="skill">
+      <img src="Fotos/css.png" alt="CSS">
+      <p>CSS</p>
+    </div>
+    <div class="skill">
+      <img src="Fotos/js.png" alt="JavaScript">
+      <p>JavaScript</p>
+    </div>
+    <div class="skill">
+      <img src="Fotos/github.jpg" alt="GitHub">
+      <p>GitHub</p>
+    </div>
+  </div>
+  </section>
+
+ 
+  <section id="projetos" class="projetos">
+    <h2>Projetos</h2>
+    <div class="projetos-grid">
+      <div class="card">
+        <h3>Projeto 1</h3>
+        <p>Sem projeto.</p>
+        <a href="#">Ver projeto</a>
+      </div>
+      <div class="card">
+        <h3>Projeto 2</h3>
+        <p>Sem Projeto.</p>
+        <a href="#">Ver projeto</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <form id="form-contato">
+      <input type="text" id="nome" placeholder="Seu nome">
+      <input type="email" id="email" placeholder="Seu e-mail">
+      <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="msg-erro" style="color:red; display:none;">Preencha todos os campos corretamente.</p>
+  </section>
+
+  
+  <footer>
+    <p>&copy; 2025 Fase 1</p>
+  </footer>
+
+  <script src="script.js"></script> 
+</body>
+</html>
